@@ -5,8 +5,9 @@ public class PrintRowWaveArray2D {
         Scanner sc = new Scanner(System.in);
 
         int M = sc.nextInt();
+        int N = sc.nextInt();
 
-        int[][] matrix = new int[M][M];
+        int[][] matrix = new int[M][N];
 
         for(int r = 0; r < matrix.length; r++){
             for(int c = 0; c < matrix[0].length; c++){
@@ -18,12 +19,12 @@ public class PrintRowWaveArray2D {
 
         for(int r = 0; r < matrix.length; r++){
             if(r % 2 == 0){
-                for(int row = 0; row < matrix.length; row++){
-                    System.out.print(matrix[r][row]);
+                for(int c = 0; c < matrix[0].length; c++){
+                    System.out.print(matrix[r][c]+" ");
                 }
             }else {
-                for(int row = matrix.length - 1; row >= 0; row--){
-                    System.out.print(matrix[r][row]);
+                for(int c = matrix[0].length - 1; c >= 0; c--){
+                    System.out.print(matrix[r][c]+" ");
                 }
             }
             System.out.println();
