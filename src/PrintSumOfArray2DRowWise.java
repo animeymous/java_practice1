@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrintSumOfArray2D {
+public class PrintSumOfArray2DRowWise {
     public static void printSumOfArray2D(){
         Scanner sc  = new Scanner(System.in);
 
