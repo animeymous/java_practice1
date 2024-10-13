@@ -14,3 +14,7 @@ public class PrintPerfectNumber {
         }
     }
 }
+
+/* Approach
+* by making loop to run num / 2 times, we have made little optimisation in this also
+*/
