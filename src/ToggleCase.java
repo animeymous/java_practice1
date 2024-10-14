@@ -13,3 +13,5 @@ public class ToggleCase {
         System.out.print(dummyStr);
     }
 }
+
+//Unoptimised code
