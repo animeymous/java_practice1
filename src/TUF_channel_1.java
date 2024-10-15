@@ -1,7 +1,7 @@
-public class TUF_chanel_1 {
+public class TUF_channel_1 {
     // Que: Find maximum sum in constant K window (take you forward youtube chanel )
 
-    public static void tUF_chanel_1(int [] arr, int k){
+    public static void tUF_channel_1(int [] arr, int k){
         int sum = 0;
         int maximum_sum = 0;
 
