@@ -1,7 +1,7 @@
-public class TwoPointerConstantWindow_1 {
+public class TwoPointerConstantWindow_TUF_1 {
     // Que: Find maximum sum in constant K window (take you forward youtube chanel )
 
-    public static void twoPointerConstantWindow_1(int [] arr, int k){
+    public static void twoPointerConstantWindow_TUF_1(int [] arr, int k){
         int sum = 0;
         int maximum_sum = 0;
 
