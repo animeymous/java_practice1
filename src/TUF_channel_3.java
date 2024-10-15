@@ -34,6 +34,6 @@ Time : O(N)
 Space: O(1)
 
 why O(N) ?  because look at right variable it will move till at the end of array only means N times only,
-            and left variable is also moving till end of array only means again N only
-            so it looks like O(N2) but iterations happening O(N) times only
+            and left variable is also moving till end of array only means again N only,
+            so it looks like O(N^2) but iterations happening O(N + N) times only which O(N)
 */
