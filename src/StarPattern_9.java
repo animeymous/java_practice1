@@ -14,3 +14,14 @@ public class StarPattern_9 {
         }
     }
 }
+
+/*
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+
+TC: O(N^2)
+SC: O(1)
+*/
