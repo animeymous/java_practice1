@@ -2,11 +2,15 @@ import java.util.Arrays;
 
 public class NobleInteger {
     public static void nobleInteger(int [] arr){
-
+        //sort array so that we can know from every index how many elements are greater than that
         Arrays.sort(arr);
+
+        //check is after sorting last element is 0 or not, this tell us till N-1 elements are all NEGATIVE or not
         if(arr[arr.length - 1] == 0){
             System.out.println("1");
         };
+
+        //formula to check noble integer: arr[i] == (arr.length - (i + 1))
         for(int i = 0; i < arr.length - 1; i++){
             if(arr[i] == (arr.length - (i + 1)) && i+1 < arr.length && arr[i]<arr[i+1]){
                 System.out.println("1");
