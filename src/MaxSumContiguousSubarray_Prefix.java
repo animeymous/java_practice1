@@ -43,7 +43,7 @@ public class MaxSumContiguousSubarray_Prefix {
 /*
 Ques: Find the maximum sum of contiguous non-empty subarray within an array A of length N.
 
-Approach: brute force
+Approach: prefix method
 1. make variable to hold max sum, and set start and ending point
 2. loop through from start and ending point
 3. calculate sum with prefix formula from prefix array
