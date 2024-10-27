@@ -1,5 +1,5 @@
-public class MaxSumContiguousSubarray {
-    public static void maxSumContiguousSubarray(int [] arr){
+public class MaxSumContiguousSubarray_BF {
+    public static void maxSumContiguousSubarray_BF(int [] arr){
 
         //variable to hold maximum sum
         int maximum_sum = Integer.MIN_VALUE;
