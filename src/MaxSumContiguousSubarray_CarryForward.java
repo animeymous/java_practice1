@@ -27,7 +27,7 @@ public class MaxSumContiguousSubarray_CarryForward {
 /*
 Ques: Find the maximum sum of contiguous non-empty subarray within an array A of length N.
 
-Approach: carry forward
+Approach: prefix sub array
 1. make variable to hold max sum, and set start and ending point
 2. loop through from start and ending point
 3. calculate sum with carry forward
