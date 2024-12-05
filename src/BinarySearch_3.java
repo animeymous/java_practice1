@@ -4,7 +4,7 @@ public class BinarySearch_3 {
         int left = 0;
         int right = sortedArr.length - 1;
 
-        //loop to search kth first occurrence
+        //loop to search kth last occurrence
         while(left <= right){
             int mid = (right + left) / 2;
 
