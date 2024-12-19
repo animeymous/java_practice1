@@ -8,7 +8,7 @@ public class LinkList_1 {
         Link_List_Class temp = head;
 
         //traverse till last node
-        while(temp != null){
+        while(temp.next != null){
             temp = temp.next; // by this we can move pointer
         }
 
