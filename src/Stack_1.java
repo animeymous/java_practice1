@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 public class Stack_1 {
-    public static int balanceParanthesis(String A){
+    public static int balanceParantheses(String A){
         Stack<Character> st = new Stack<>();
 
         for(int i = 0; i < A.length(); i++){
