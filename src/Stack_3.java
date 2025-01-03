@@ -17,7 +17,7 @@ public class Stack_3 {
                 st.push(currCharacter);
             }else{
                 Character topStackCharacter = st.peek(); // get top element
-                if(topStackCharacter.equals(currCharacter)){  // compare it with current element
+                if(!st.isEmpty() && (topStackCharacter.equals(currCharacter))){  // compare it with current element
                     st.pop(); // if matched then remove it from stack
                 }else{
                     st.push(currCharacter); // if not, then push it in the stack
