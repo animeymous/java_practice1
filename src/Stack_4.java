@@ -65,9 +65,12 @@ Ques: You have a string, denoted as A.
     The final result will be the transformed string.
 
 Approach:
-1. create stack of Integer and loop through string / array,
-2. if stack is empty, directly push current element, if not then first verify current element exist in stack or not.
-3. if yes then pop that element and move ahead, if not then push current element in stack
+1. create hashmap to store frequency of elements and stack of Integer to store elements and loop through string / array,
+2. if stack is empty, directly push current element in stack and hashmap with count 1,
+3. if not push it in stack and increase count in the hashmap for that element
+4. then match count of element with the "K", if it matches then make one temporary stack
+5. push unique element in temp stack and remove all from original stack, then push all element from temp to original stack
+3. keep doing it until string from empty then return modified string
 
 TC: O(N)
 SC: O(N)
